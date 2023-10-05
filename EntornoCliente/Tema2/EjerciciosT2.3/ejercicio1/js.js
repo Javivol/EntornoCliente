@@ -1,0 +1,12 @@
+let fechaActual = new Date();
+let cumpleaños = new Date(2001,6,4);
+document.write(fechaActual.toLocaleDateString()+"<br>");
+document.write(cumpleaños+"<br>");
+document.write(fechaActual.getFullYear()+"<br>");
+document.write(cumpleaños.getFullYear()+"<br>");
+fechaActual.setFullYear(2022);
+document.write(fechaActual.getFullYear()+"<br>");
+let dia = fechaActual.getDate();
+let mes = fechaActual.getMonth()+1;
+let año = fechaActual.getFullYear();
+document.write(dia + "/" + mes + "/" + año);
